@@ -1,0 +1,27 @@
+{
+    "name": "Colégio Bandeiras",
+    "phone_format": "(31)  3598-2324",
+    "phone": "3135982324",
+    "mobile_format": "(31) 98613-2025",
+    "mobile": "31986132025",
+    "email": "diretoria@colegiobandeiras.com.br",
+    "address": "Rua Bonfim, 53, Palmares - Ibirité/MG CEP 32423-080",
+    "": "",
+    "links": {
+        "instagram": "https://www.instagram.com/Colbandeiras/",
+        "linkedin": "",
+        "facebook": "https://www.facebook.com/ColBandeiras/",
+        "youtube": "",
+        "twitter": "https://twitter.com/ColBandeiras"
+    },
+    "galery": [
+        "/assets/images/gal_1.jpg",
+        "/assets/images/gal_2.jpg",
+        "/assets/images/gal_3.jpg",
+        "/assets/images/gal_4.jpg",
+        "/assets/images/gal_5.jpg",
+        "/assets/images/gal_6.jpg"
+    ],
+
+    " ": ""
+}

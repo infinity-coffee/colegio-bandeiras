@@ -1,0 +1,59 @@
+---
+import "../assets/css/bootstrap.min.css";
+import "../assets/css/owl.carousel.min.css";
+import "../assets/css/owl.carousel.min.css";
+import "../assets/css/jquery.fancybox.min.css";
+import "../assets/fonts/icomoon/style.css";
+import "../assets/css/aos.css";
+import "../assets/css/style.css";
+
+import Nav from "../components/Nav.astro";
+import Footer from "../components/Footer.astro";
+import WhatsappIcon from "../components/WhatsappIcon.astro";
+import data from "../data/global.json";
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Muli:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<title>{data.name}</title>
+	</head>
+
+	<body>
+		<Nav />
+
+		<slot />
+
+		<Footer />
+
+		<div id="overlayer"></div>
+		<div class="loader">
+			<div class="spinner-border" role="status">
+				<span class="sr-only">Carregando...</span>
+			</div>
+		</div>
+		<WhatsappIcon />
+		<script is:inline src="/assets/js/jquery-3.4.1.min.js"></script>
+		<script is:inline src="/assets/js/popper.min.js"></script>
+		<script is:inline src="/assets/js/bootstrap.min.js"></script>
+		<script is:inline src="/assets/js/owl.carousel.min.js"></script>
+		<script is:inline src="/assets/js/jquery.animateNumber.min.js"></script>
+		<script is:inline src="/assets/js/jquery.waypoints.min.js"></script>
+		<script is:inline src="/assets/js/jquery.fancybox.min.js"></script>
+		<script is:inline src="/assets/js/jquery.sticky.js"></script>
+		<script is:inline src="/assets/js/aos.js"></script>
+		<script is:inline src="/assets/js/custom.js"></script>
+	</body>
+</html>
