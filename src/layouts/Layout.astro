@@ -1,9 +1,11 @@
 ---
 import "../assets/css/bootstrap.min.css";
+import "../assets/css/animate.min.css";
 import "../assets/css/owl.carousel.min.css";
-import "../assets/css/owl.carousel.min.css";
+import "../assets/css/owl.theme.default.min.css";
 import "../assets/css/jquery.fancybox.min.css";
 import "../assets/fonts/icomoon/style.css";
+import "../assets/fonts/flaticon/font/flaticon.css";
 import "../assets/css/aos.css";
 import "../assets/css/style.css";
 
@@ -11,24 +13,37 @@ import Nav from "../components/Nav.astro";
 import Footer from "../components/Footer.astro";
 import WhatsappIcon from "../components/WhatsappIcon.astro";
 import data from "../data/global.json";
+const { href } = Astro.url;
 ---
 
 <!doctype html>
 <html lang="en">
 	<head>
+		<title>{data.name}</title>
 		<meta charset="utf-8" />
 		<meta
 			name="viewport"
 			content="width=device-width, initial-scale=1, shrink-to-fit=no"
 		/>
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
+		<meta http-equiv="x-ua-compatible" content="ie=edge" />
+		<meta name="description" content={data.description} />
+		<link rel="home" href={data.domain} />
+
+		<!-- Social Meta -->
+		<meta property="og:site_name" content={data.name} />
+		<meta property="og:title" content={data.description} />
+		<meta property="og:description" content={data.description} />
+		<meta property="og:url" content={href} />
+		<meta
+			property="og:image"
+			content={data.domain}+"meta.png"
+		/>
+		<meta property="og:type" content="website" />
+		<link rel="icon" type="image/png" sizes="16x16" href="../favicon.png" />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Muli:wght@400;700&display=swap"
 			rel="stylesheet"
 		/>
-
-		<title>{data.name}</title>
 	</head>
 
 	<body>
