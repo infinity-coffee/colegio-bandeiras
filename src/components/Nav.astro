@@ -6,6 +6,7 @@ const links = [
     { link: "/acontece-no-bandeiras", title: "Acontece no Bandeiras" },
     { link: "/segmentos", title: "Segmentos" },
     { link: "/proposta-pedagogica", title: "Proposta Pedagógica" },
+    { link: "/conheca-o-bandeiras", title: "Conheça o Bandeiras" },
 ];
 import data from "../data/global.json";
 ---
@@ -45,6 +46,7 @@ import data from "../data/global.json";
                 <a href="/" class="logo menu-absolute m-0"
                     >{data.name}<span class="text-primary">.</span></a
                 >
+                <br>
                 <ul class="js-clone-nav d-none d-lg-inline-block site-menu">
                     {
                         links.map((item) => (
@@ -62,14 +64,7 @@ import data from "../data/global.json";
                         ))
                     }
                 </ul>
-                <a
-                    href="#"
-                    class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-none light"
-                    data-toggle="collapse"
-                    data-target="#main-navbar"
-                >
-                    <span></span>
-                </a>
+                
             </div>
         </div>
     </div>
