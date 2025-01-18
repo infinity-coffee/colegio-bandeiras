@@ -13,6 +13,7 @@ import Nav from "../components/Nav.astro";
 import Footer from "../components/Footer.astro";
 import WhatsappIcon from "../components/WhatsappIcon.astro";
 import data from "../data/global.json";
+const gtag = data.tokens.googletagmanager;
 const { href } = Astro.url;
 ---
 
@@ -21,6 +22,20 @@ const { href } = Astro.url;
 	<head>
 		<title>{data.name}</title>
 		<meta charset="utf-8" />
+		<script
+			async
+			is:inline
+			src={"https://www.googletagmanager.com/gtag/js?id=" +
+				data.tokens.googletagmanager}></script>
+		<script is:inline define:vars={{ gtag }}>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag("js", new Date());
+
+			gtag("config", gtag);
+		</script>
 		<meta
 			name="viewport"
 			content="width=device-width, initial-scale=1, shrink-to-fit=no"
@@ -31,13 +46,10 @@ const { href } = Astro.url;
 
 		<!-- Social Meta -->
 		<meta property="og:site_name" content={data.name} />
-		<meta property="og:title" content={data.description} />
+		<meta property="og:title" content={data.name} />
 		<meta property="og:description" content={data.description} />
 		<meta property="og:url" content={href} />
-		<meta
-			property="og:image"
-			content={data.domain}+"meta.png"
-		/>
+		<meta property="og:image" content={data.domain} +"meta.png" />
 		<meta property="og:type" content="website" />
 		<link rel="icon" type="image/png" sizes="16x16" href="../favicon.png" />
 		<link

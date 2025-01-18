@@ -1,23 +1,36 @@
 ---
 import { Image } from "astro:assets";
 import data from "../data/global.json";
+const galery = data.galery.sort((a, b) => 0.5 - Math.random())
+.slice(Math.max(data.galery.length - 12, 1));
 ---
 
 <div class="site-footer">
     <div class="container">
+        <div class="row mb-2">
+            <div class="col-12">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3749.5243723389494!2d-44.069613499999996!3d-19.9864951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6bf08ddd4d13f%3A0x4375e55589c59af4!2sCol%C3%A9gio%20Bandeiras!5e0!3m2!1spt-BR!2sbr!4v1737212589879!5m2!1spt-BR!2sbr"
+                    width="100%"
+                    height="300"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
         <div class="row">
             <div class="col-lg-5 mr-auto">
                 <div class="widget">
-                    <h3>
-                        Fazemos sempre o melhor<span class="text-primary"
-                            >.</span
-                        >
-                    </h3>
                     <p>
-                        Com uma proposta séria e inovadora, o Colégio Bandeiras
-                        é destaque em educação há duas décadas e sua equipe é
-                        formada por profissionais capacitados e atualizados para
-                        oferecer o melhor ensino aos nossos alunos.
+                        Estamos localizados na Rua Bonfim, 53 - Palmares,
+                        Ibirité.Acompanhe nossa rotina pedagógica, eventos,
+                        evoluções e comunicados através das nossas redes sociais
+                        @colbandeiras (link clicável). Se quiser conhecer o
+                        Bandeiras de pertinho, será um prazer receber você e sua
+                        família. Agende seu horário falando conosco pelo nosso
+                        whatsapp, e nossa equipe estará aguardando por você no
+                        horário combinado.
                     </p>
                 </div>
                 <div class="widget">
@@ -33,21 +46,6 @@ import data from "../data/global.json";
                                 ><span class="icon-facebook"></span></a
                             >
                         </li>
-                        <li>
-                            <a href={data.links.linkedin}
-                                ><span class="icon-linkedin"></span></a
-                            >
-                        </li>
-                        <li>
-                            <a href={data.links.youtube}
-                                ><span class="icon-youtube"></span></a
-                            >
-                        </li>
-                        <li>
-                            <a href={data.links.twitter}
-                                ><span class="icon-twitter"></span></a
-                            >
-                        </li>
                     </ul>
                 </div>
             </div>
@@ -56,7 +54,7 @@ import data from "../data/global.json";
                     <h3>Galeria</h3>
                     <ul class="instafeed instagram-gallery list-unstyled">
                         {
-                            data.galery.map((item) => (
+                            galery.map((item) => (
                                 <li>
                                     <a
                                         class="instagram-item"
