@@ -1,8 +1,9 @@
 ---
 import { Image } from "astro:assets";
 import data from "../data/global.json";
-const galery = data.galery.sort((a, b) => 0.5 - Math.random())
-.slice(Math.max(data.galery.length - 12, 1));
+const galery = data.galery
+    .sort((a, b) => 0.5 - Math.random())
+    .slice(Math.max(data.galery.length - 12, 1));
 ---
 
 <div class="site-footer">
@@ -25,12 +26,11 @@ const galery = data.galery.sort((a, b) => 0.5 - Math.random())
                     <p>
                         Estamos localizados na Rua Bonfim, 53 - Palmares,
                         Ibirité.Acompanhe nossa rotina pedagógica, eventos,
-                        evoluções e comunicados através das nossas redes sociais
-                        @colbandeiras (link clicável). Se quiser conhecer o
-                        Bandeiras de pertinho, será um prazer receber você e sua
-                        família. Agende seu horário falando conosco pelo nosso
-                        whatsapp, e nossa equipe estará aguardando por você no
-                        horário combinado.
+                        evoluções e comunicados através das nossas redes sociai. 
+                        Se quiser conhecer o Bandeiras de pertinho, será um
+                        prazer receber você e sua família. Agende seu horário
+                        falando conosco pelo nosso whatsapp, e nossa equipe
+                        estará aguardando por você no horário combinado.
                     </p>
                 </div>
                 <div class="widget">
