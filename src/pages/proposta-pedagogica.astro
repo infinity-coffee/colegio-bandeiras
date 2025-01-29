@@ -1,5 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import { Image } from "astro:assets";
 ---
 
 <Layout>
@@ -41,6 +42,15 @@ import Layout from "../layouts/Layout.astro";
 						também as habilidades humanas, sociais e emocionais,
 						assim como nossa oferta de educação socioemocional
 						propõe.
+						<br />
+						<Image
+							class="float-right"
+							inferSize
+							alt=""
+							src="/assets/images/Mascote Bandeiras Lapis.png"
+							width="150"
+							height="250"
+						/>
 					</p>
 				</div>
 			</div>
@@ -139,7 +149,7 @@ import Layout from "../layouts/Layout.astro";
 					<div class="pricing">
 						<div class="pricing-img mb-4">
 							<img
-								src="assets/images/1x/asset-2.png"
+								src="/assets/images/Mascote Bandeiras Deitado lendo.png"
 								alt="Image"
 								class="img-fluid"
 							/>
