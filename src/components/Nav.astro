@@ -45,7 +45,14 @@ import { Image } from "astro:assets";
         <div class="container position-relative">
             <div class="site-navigation">
                 <a href="/" class="logo menu-absolute float-left">
-                    <Image inferSize alt="" src='/assets/images/Logotipo Bandeiras 1999-pequeno.png' width="55" height="46" />
+                    <Image
+                        id="logo"
+                        inferSize
+                        alt=""
+                        src="/assets/images/Logotipo Bandeiras 1999-pequeno.png"
+                        width={130}
+                        height={110}
+                    />
                 </a>
                 <ul
                     class="js-clone-nav d-none d-lg-inline-block site-menu float-right"
