@@ -667,9 +667,20 @@ h4,
   color: #000000 !important;
 }
 
+@media (max-width: 767.98px) {
+  #logo {
+    height: 40px !important;
+    width: 50px !important;
+  }
+  #sticky-wrapper.is-sticky .sticky-nav .logo #logo {
+    height: 30px !important;
+    width: 40px !important;
+  }
+}
+
 #sticky-wrapper.is-sticky .sticky-nav .logo #logo {
-  height: 46px !important;
-  width: 56px !important;
+  height: 40px !important;
+  width: 50px !important;
 }
 
 #sticky-wrapper.is-sticky .sticky-nav .site-menu>li>a {

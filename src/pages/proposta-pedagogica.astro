@@ -88,7 +88,16 @@ import { Image } from "astro:assets";
 	</div>
 	<div
 		class="untree_co-section pt-0 bg-img overlay"
-		style="background-image: url('/assets/images/fotos/LMF_0063.jpg');"
+		style="
+			background: url('/assets/images/fotos/LMF_0063.jpg');
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+			background-position: center;
+			height: 100%;
+			overflow: hidden;
+		"
 	>
 		<div class="container">
 			<div
