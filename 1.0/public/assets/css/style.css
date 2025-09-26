@@ -1,5 +1,5 @@
 body {
-  font-family: "Muli", sans-serif;
+  font-family: "Quicksand";
   line-height: 1.6;
   background-color: #ffffff;
   overflow-x: hidden;
@@ -48,7 +48,7 @@ a.text-primary {
     color: #0fb78d !important; }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
-  font-family: "Libre Baskerville", serif;
+  font-family: "Libre Baskerville";
   color: #black; }
 
 .btn {
@@ -864,7 +864,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 
 .count-numbers .counter {
   font-size: 26px;
-  font-family: "Libre Baskerville", serif;
+  font-family: "Quicksand";
   color: #0fb78d; }
 
 .pricing {
