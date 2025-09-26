@@ -1,0 +1,77 @@
+{
+    "name": "Colégio Bandeiras",
+    "domain": "https://www.colegiobandeiras.com.br/",
+    "description": "Se você não está se divertindo, você não está aprendendo!",
+    "phone_format": "(31) 3598-2324",
+    "phone": "31986132025",
+    "mobile_format": "(31) 98613-2025",
+    "mobile": "31986132025",
+    "email": "diretoria@colegiobandeiras.com.br",
+    "address": "Rua Bonfim, 53, Palmares - Ibirité/MG CEP 32423-080",
+    "": "",
+    "links": {
+        "instagram": "https://www.instagram.com/colbandeiras/",
+        "facebook": "https://www.facebook.com/colegiobandeirasof/",
+        "google": "https://maps.app.goo.gl/hLT2WNaVT6d3tztG7"
+    },
+    "galery": [
+        "/assets/images/galeria/LMF_0006.jpg",
+        "/assets/images/galeria/LMF_0014.jpg",
+        "/assets/images/galeria/LMF_0018.jpg",
+        "/assets/images/galeria/LMF_0051.jpg",
+        "/assets/images/galeria/LMF_0054.jpg",
+        "/assets/images/galeria/LMF_0074.jpg",
+        "/assets/images/galeria/LMF_0100.jpg",
+        "/assets/images/galeria/LMF_0111.jpg",
+        "/assets/images/galeria/LMF_0114.jpg",
+        "/assets/images/galeria/LMF_0116.jpg",
+        "/assets/images/galeria/LMF_0121.jpg",
+        "/assets/images/galeria/LMF_0126.jpg",
+        "/assets/images/galeria/LMF_0132.jpg",
+        "/assets/images/galeria/LMF_0138.jpg",
+        "/assets/images/galeria/LMF_0147.jpg",
+        "/assets/images/galeria/LMF_0151.jpg",
+        "/assets/images/galeria/LMF_0159.jpg",
+        "/assets/images/galeria/LMF_0162.jpg",
+        "/assets/images/galeria/LMF_0165.jpg",
+        "/assets/images/galeria/LMF_0168.jpg",
+        "/assets/images/galeria/LMF_0170.jpg",
+        "/assets/images/galeria/LMF_0175.jpg",
+        "/assets/images/galeria/LMF_0177.jpg",
+        "/assets/images/galeria/LMF_0179.jpg",
+        "/assets/images/galeria/LMF_0186.jpg",
+        "/assets/images/galeria/LMF_0187.jpg",
+        "/assets/images/galeria/LMF_0192.jpg",
+        "/assets/images/galeria/LMF_0198.jpg",
+        "/assets/images/galeria/LMF_0215.jpg",
+        "/assets/images/galeria/LMF_0235.jpg",
+        "/assets/images/galeria/LMF_0236.jpg",
+        "/assets/images/galeria/LMF_0237.jpg",
+        "/assets/images/galeria/LMF_0244.jpg",
+        "/assets/images/galeria/LMF_0245.jpg",
+        "/assets/images/galeria/LMF_0246.jpg",
+        "/assets/images/galeria/LMF_0250.jpg"
+    ],
+    "carousel": [
+        "/assets/images/galeria/LMF_0235.jpg",
+        "/assets/images/galeria/LMF_0236.jpg",
+        "/assets/images/galeria/LMF_0237.jpg",
+        "/assets/images/galeria/LMF_0244.jpg",
+        "/assets/images/galeria/LMF_0245.jpg",
+        "/assets/images/galeria/LMF_0246.jpg",
+        "/assets/images/galeria/LMF_0250.jpg"
+    ],
+    "ballet": [
+        "/assets/images/ballet/",
+        "/assets/images/ballet/",
+        "/assets/images/ballet/",
+        "/assets/images/ballet/",
+        "/assets/images/ballet/",
+        "/assets/images/ballet/"
+    ],
+    "tokens": {
+        "googletagmanager": "1234"
+    },
+
+    " ": ""
+}
